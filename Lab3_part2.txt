@@ -1,0 +1,103 @@
+PART 2 QUESTION 1
+
+1)
+
+(base) Anastacias-MacBook-Air:Desktop Sofia$ git clone https://github.com/sofia-bahmutsky/data-541-lab-3-Sofia-Bahmutsky.git
+Cloning into 'data-541-lab-3-Sofia-Bahmutsky'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+(base) Anastacias-MacBook-Air:Desktop Sofia$ 
+
+
+2)
+
+(base) Anastacias-MacBook-Air:Desktop Sofia$ cd data-541-lab-3-Sofia-Bahmutsky
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ 
+
+3) and 4)
+
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ git checkout -b Markdown
+Switched to a new branch 'Markdown'
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ 
+
+5) 
+
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ git checkout Markdown
+Already on 'Markdown'
+
+6) 
+
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ git add -A
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ git commit -m"adding files to branch Markdown"
+[Markdown 37e9689] adding files to branch Markdown
+ 4 files changed, 52 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 5NarrowLogo_ex_768.png
+ create mode 100644 lab3_q1.md
+ create mode 100644 lab3_q2.md
+
+7) 
+
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ git push -u origin Markdown
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 6.99 KiB | 6.99 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+remote: 
+remote: Create a pull request for 'Markdown' on GitHub by visiting:
+remote:      https://github.com/sofia-bahmutsky/data-541-lab-3-Sofia-Bahmutsky/pull/new/Markdown
+remote: 
+To https://github.com/sofia-bahmutsky/data-541-lab-3-Sofia-Bahmutsky.git
+ * [new branch]      Markdown -> Markdown
+Branch 'Markdown' set up to track remote branch 'Markdown' from 'origin'.
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ 
+
+8) see screenshot
+
+PART 2 QUESTION 2
+
+1)
+
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+2)
+
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ git merge Markdown
+Updating 23c30de..37e9689
+Fast-forward
+ .DS_Store              | Bin 0 -> 6148 bytes
+ 5NarrowLogo_ex_768.png | Bin 0 -> 5602 bytes
+ lab3_q1.md             |  29 +++++++++++++++++++++++++++++
+ lab3_q2.md             |  23 +++++++++++++++++++++++
+ 4 files changed, 52 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 5NarrowLogo_ex_768.png
+ create mode 100644 lab3_q1.md
+ create mode 100644 lab3_q2.md
+
+3) 
+
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ git push
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/sofia-bahmutsky/data-541-lab-3-Sofia-Bahmutsky.git
+   23c30de..37e9689  master -> master
+
+4)
+
+(base) Anastacias-MacBook-Air:data-541-lab-3-Sofia-Bahmutsky Sofia$ git branch -d Markdown
+Deleted branch Markdown (was 37e9689).
+
+5) See screenshot
+
+6) submit to GitHub
+
+
+
+
