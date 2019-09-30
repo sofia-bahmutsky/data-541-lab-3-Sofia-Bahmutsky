@@ -10,7 +10,7 @@ With 25% width:
 
 
 
-<img src="/5NarrowLogo_ex_768.png" width="25%" alt="UBCO MDS 2018" title="UBCO"s>
+<img src="/5NarrowLogo_ex_768.png" width="25%" alt="UBCO MDS 2018" title="UBCO">
 
 
 
