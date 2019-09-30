@@ -18,6 +18,6 @@ With 100% width:
 
 
 
-<img src="/5NarrowLogo_ex_768.png" width="100%" alt="UBCO MDS 2018">
+<img src="/5NarrowLogo_ex_768.png" width="100%" alt="UBCO MDS 2018" title="UBCO">
 
 By combining Markdown and HTML, you can get the simplicity of Markdown styling and the power of HTML styling in the same document.
